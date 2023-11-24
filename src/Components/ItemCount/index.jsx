@@ -1,10 +1,10 @@
 import './ItemCount.css';
 
-import React, { useState } from 'react'
+import React, { useState, useEffect  } from 'react'
 
 
 export const ItemCount = ({initial, stock, onAdd}) => {
-    const [count, setCount] = useState(paseInt(initial));
+    const [count, setCount] = useState(parseInt(initial));
 
     const increase = () => {
         setCount(count + 1);
