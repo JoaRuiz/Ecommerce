@@ -1,0 +1,19 @@
+.container{
+    width: 98%;
+    margin: auto;
+}
+
+.detail{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail__image{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+}
